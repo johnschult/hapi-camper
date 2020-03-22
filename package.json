@@ -1,0 +1,31 @@
+{
+  "name": "hapi-camper",
+  "version": "1.0.0",
+  "description": "Hapi Plugin that initializes a Mongoose connection and Model(s)",
+  "main": "lib/index.js",
+  "homepage": "https://github.com/johnschult/hapi-camper/",
+  "bugs": {
+    "url": "https://github.com/asilluron/hapi-camper/issues"
+  },
+  "repository": "https://github.com/johnschult/hapi-camper",
+  "author": "John Schult",
+  "license": "MIT",
+  "dependencies": {
+    "mongoose": "^5.9.5"
+  },
+  "devDependencies": {
+    "@hapi/code": "^8.0.1",
+    "@hapi/hapi": "^19.1.1",
+    "@hapi/lab": "^22.0.4",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "rewire": "^5.0.0",
+    "sinon": "^9.0.1"
+  },
+  "scripts": {
+    "test": "lab"
+  }
+}
