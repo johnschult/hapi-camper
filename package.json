@@ -10,7 +10,9 @@
   "repository": "https://github.com/johnschult/hapi-camper",
   "author": "John Schult",
   "license": "MIT",
-  { "engines" : { "node" : ">=10" } },
+  "engines": {
+    "node": ">=10"
+  },
   "dependencies": {
     "mongoose": "^5.9.5"
   },
